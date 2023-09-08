@@ -1,0 +1,169 @@
+body{
+    margin:0px;
+}
+
+header{
+    height:50px;
+    /*border:3px solid red;*/
+    background-color: saddlebrown;
+   display: flex;
+   line-height: 5px;
+   padding-top:10px;
+}
+
+header h2{
+    color:white;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+header a{
+    text-decoration:none;
+    background-color:steelblue;
+    height:30px;
+    width:60px;
+    text-align: center;
+    color:white;
+    font-weight: 500;
+    border-radius: 5px;
+    line-height: 25px;
+    
+}
+
+
+section{
+    width:100%;
+    height:700px;
+    background-color: antiquewhite;
+    display: flex;
+    padding:30px;
+    
+   
+    
+}
+
+
+
+ section #div1{
+    border:4px solid gray;
+    height:500px;
+    width:20%;
+    /*float: left;*/
+    margin:20px;
+    
+}
+
+.border h1{
+    margin-bottom: 20px;
+    border-bottom: 3px solid white;
+}
+
+div input {
+    padding:20px;
+}
+
+section #div2{
+   
+    height:500px;
+    width:60%;
+    margin:20px;
+
+}
+
+.card{
+    background-color:bisque;
+    height:320px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    box-shadow: 3px 3px 4px white;
+}
+
+.button1{
+    background-color: navy;
+    color:aliceblue;
+    height:30px;
+    width:70px;
+    border:none;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.button2{
+    height:30px;
+    width:70px;
+    background-color:red;
+    color:aliceblue;
+    font-weight: 700;
+    border-radius: 4px;
+    border:none;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.button3{
+    height:30px;
+    width:100px;
+    background-color:green;
+    color:aliceblue;
+    font-weight: 700;
+    border-radius: 4px;
+    border:none;
+    margin-right: 15px;;
+}
+
+.button4{
+    height:30px;
+    width:100px;
+    background-color:gold;
+    color:aliceblue;
+    font-weight: 700;
+    border-radius: 4px;
+    border:none;
+    margin-right: 15px;; 
+}
+
+p{
+    color:rgb(137, 102, 170)
+}
+h1{
+    color:rgb(58, 58, 156);
+}
+.image{
+    height:270px;
+    width:300px;
+    border-radius: 15px;
+    margin:15px;
+}
+
+/* Footer */
+footer{
+    /* height: 80px; */
+    /* border:10px double orange */
+    background-color: #3b2632;
+    text-align: center;
+    color: white
+}
+
+.footText{
+    font-size: 20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width:32%;
+    border-right: 2px solid white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.noborder{
+    border:none
+}
+
+.socialLogo{
+    height:50px
+}
